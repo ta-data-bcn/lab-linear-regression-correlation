@@ -34,7 +34,7 @@ I am suspicious about my last parties. It looks like the more people I invite, t
 
 X is the number of people that I invited to one party and Y is the number of people that actually came.
 
-| x | y |
+| X | Y |
 |---|---|
 | 1 | 1 |
 | 3 | 2 |
@@ -47,7 +47,7 @@ X is the number of people that I invited to one party and Y is the number of peo
 
 Use this command to create a dataframe with the data about my parties. 
 ~~~~
-party_data = pd.DataFrame({'x': [1,3,4,6,8,9,11,14], 'y': [1,2,4,4,5,7,8,9]})
+party_data = pd.DataFrame({'X': [1,3,4,6,8,9,11,14], 'Y': [1,2,4,4,5,7,8,9]})
 ~~~~
 
 * Calculate the covariance and the correlation. What do you think?
@@ -64,7 +64,7 @@ We are doing an analysis in order to see if two RVs fit into a linear regression
 We define an error as the difference between the expected value of an observation (the value that the regression line gives to us) and the actual value. 
 
 Continuing with the Challenge 2, you are asked here to do an error analysis.
-* First do a table with the expected y value for each x
+* First do a table with the expected Y value for each X
 
 | x | y | expected y |
 |---|---|---|
@@ -77,9 +77,9 @@ Continuing with the Challenge 2, you are asked here to do an error analysis.
 | 11 |8 ||
 | 14 | 9 ||
 
-You get the expected y just evaluating the regression line for each x.
+You get the expected Y just evaluating the regression line for each X.
 
-* Draw the dispersion diagram. You will drax x vs expected y.
+* Draw the dispersion diagram. You will drax X vs expected Y.
 * The more the points are close to zero, the best the points will fit to the linear regression. What do you see here? Which points are painful?
 * Recalculate the regression line removing the painful point. 
 * Calculate the correlation. What is happening? What do you think?
