@@ -19,7 +19,7 @@ I am suspicious about my employees. I think the younger they are, the more they 
 | 9      | 64  |  5         |
 | 10     | 40  |  8         |
 
-Connect to the Ironhack database. Retrieve this data from the "absences" table in the "employees" database. 
+Connect to Ironhack's database. Retrieve this data from the "absences" table in the "employees" database. 
 
 * Draw the dispersion diagram. What do you see here?
 * Define a function to calculate the parameters of the regression line. No methods allowed!
